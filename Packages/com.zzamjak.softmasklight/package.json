@@ -1,0 +1,36 @@
+{
+  "name": "com.zzamjak.softmasklight",
+  "displayName": "SoftMaskLight",
+  "version": "1.0.0",
+  "unity": "6000.0",
+  "description": "RenderTexture 없이 단일 패스로 동작하는 모바일 최적화 소프트 마스크입니다. 텍스처 알파 기반 마스킹으로 추가 드로우콜/메모리 0, Image 타입(Simple/Sliced/Tiled/Filled) 형태 대응, 중첩 2단, TMP/UIParticle/UIEffect 지원을 제공합니다.",
+  "documentationUrl": "https://github.com/zzamjak-cloud/SoftMaskLight",
+  "changelogUrl": "https://github.com/zzamjak-cloud/SoftMaskLight/blob/main/Packages/com.zzamjak.softmasklight/CHANGELOG.md",
+  "license": "MIT",
+  "author": {
+    "name": "zzamjak",
+    "url": "https://github.com/zzamjak-cloud"
+  },
+  "dependencies": {
+    "com.unity.ugui": "2.0.0"
+  },
+  "samples": [
+    {
+      "displayName": "UIEffect Support",
+      "description": "com.coffee.ui-effect 패키지와 함께 사용할 때 필요한 마스킹 오버라이드 셰이더입니다. UIEffect 설치 후 임포트하세요.",
+      "path": "Samples~/UIEffectSupport"
+    },
+    {
+      "displayName": "Verify Scene",
+      "description": "12개 마스킹 케이스(이미지 타입/중첩/TMP/RectMask2D/UIEffect/UIParticle)를 담은 검증 씬입니다.",
+      "path": "Samples~/VerifyScene"
+    }
+  ],
+  "keywords": [
+    "SoftMask",
+    "Mask",
+    "UI",
+    "Mobile",
+    "Performance"
+  ]
+}
