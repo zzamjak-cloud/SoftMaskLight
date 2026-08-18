@@ -24,3 +24,7 @@ mono_crash.*
 
 # OMC 작업 상태 (커밋 금지)
 .omc/
+
+# Unity Samples~ 폴더는 글로벌 gitignore의 *~ 패턴에 걸리므로 명시적으로 포함
+!Samples~/
+!Samples~/**
